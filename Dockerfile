@@ -6,7 +6,7 @@ COPY ./package.json .
 
 RUN npm install
 
-COPY index.mjs .
+COPY index.js .
 
 EXPOSE 3000
 
